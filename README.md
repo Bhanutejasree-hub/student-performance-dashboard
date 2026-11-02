@@ -3,7 +3,7 @@
 ## About the Project
 This project is part of my internship at **YR NOVATECH** in the Artificial Intelligence and Machine Learning domain.
 
-The main aim of this task is to understand how to collect, explore, clean, and preprocess a dataset using Python. I worked with a Student Performance dataset to prepare the data for further analysis and machine learning applications.
+The main aim of this task is to understand how to collect, explore, clean, and preprocess a dataset using Python. I worked with a Student Performance dataset to prepare the data for further analysis and machine learning applications. I have downloaded the dataset from Kaggle
 
 ## Dataset Information
 - **Dataset Name:** Student Performance Dataset
