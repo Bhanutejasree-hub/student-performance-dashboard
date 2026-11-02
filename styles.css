@@ -1,0 +1,170 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f4f7fc;
+  color: #263247;
+}
+
+.navbar {
+  background-color: #172554;
+  padding: 18px 0;
+}
+
+.hero {
+  background: linear-gradient(135deg, #172554, #2563eb);
+  color: white;
+  padding: 90px 20px;
+}
+
+.tag {
+  color: #bfdbfe;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 18px 0;
+}
+
+.subtitle {
+  color: #dbeafe;
+  font-size: 18px;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.section-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+}
+
+.section-card h2,
+.section-title {
+  color: #172554;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.section-card p {
+  line-height: 1.8;
+  color: #64748b;
+}
+
+.stat-card {
+  background-color: white;
+  padding: 25px 10px;
+  text-align: center;
+  border-radius: 12px;
+  border-bottom: 4px solid #2563eb;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.stat-card h3 {
+  color: #2563eb;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.stat-card p {
+  color: #64748b;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.step-card {
+  background-color: #f8fafc;
+  padding: 22px;
+  border-radius: 10px;
+  height: 100%;
+  border-left: 4px solid #2563eb;
+}
+
+.step-card h5 {
+  color: #1e3a8a;
+  font-weight: 700;
+}
+
+.step-card p {
+  margin: 8px 0 0;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tech-list span {
+  background-color: #dbeafe;
+  color: #1e40af;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.download-section {
+  background-color: white;
+  padding: 40px 20px;
+  border-radius: 14px;
+}
+
+.download-section h2 {
+  color: #172554;
+  font-weight: 700;
+}
+
+.download-section p {
+  color: #64748b;
+  margin: 15px 0 20px;
+}
+
+.footer {
+  background-color: #172554;
+  color: #dbeafe;
+  padding: 25px 10px;
+  margin-top: 50px;
+}
+
+.footer p {
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+  .hero {
+      padding: 60px 15px;
+  }
+
+  .hero h1 {
+      font-size: 30px;
+  }
+
+  .subtitle {
+      font-size: 16px;
+  }
+
+  .section-card {
+      padding: 20px;
+  }
+}
+
